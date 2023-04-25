@@ -10,3 +10,12 @@ export const addOne = () => {
 export const applyNumber = (number) => {
   return ({ type: APPLY_NUMBER, payload: number });
 }
+
+export const changeOperation = (operation) => {
+  return ({ type: CHANGE_OPERATION, payload: operation });
+}
+
+export const CLEAR_DISPLAY = "CLEAR_DISPLAY";
+export const clearDisplay = () => {
+  return ({ type: CLEAR_DISPLAY });
+}
